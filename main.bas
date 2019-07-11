@@ -86,7 +86,7 @@ Sub 分录号排序()
     
     'Debug.Print LBound(pzzRowsDataArr), UBound(pzzRowsDataArr), LBound(pzhRowsDataArr), UBound(pzhRowsDataArr)
         
-    ' 即用于保存分录号，也用于判断对应序号的行是否已经处理过
+    ' 既用于保存分录号，也用于判断对应序号的行是否已经处理过
     ' 注意，要将数组赋值给 Range，需要定义类型为 Variant，同时上下标要正确
     Dim flhDataArr() As Variant
     ReDim flhDataArr(1 To targetRowCount, 1 To 1)
